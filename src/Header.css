@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 68px;
+  margin: 0px 30px;
+  background-color: transparent;
+  transition: background-color 0.4s;
+}
+
+.header__title {
+  color: #e40913;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.primary-nav {
+  list-style: none;
+  display: flex;
+  font-size: 11px;
+  padding: 0px;
+}
+
+.primary-nav li {
+  margin-left: 18px;
+}
+
+.secondary-nav {
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+  position: absolute;
+  padding: 0px;
+  right: 4%;
+}
+
+.secondary-nav li {
+  margin-right: 17px;
+}
