@@ -26,6 +26,11 @@
   margin-left: 18px;
 }
 
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .secondary-nav {
   list-style: none;
   display: flex;
