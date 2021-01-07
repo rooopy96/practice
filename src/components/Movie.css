@@ -1,9 +1,15 @@
 .movies .movie {
   width: 45%;
   margin-bottom: 70px;
+  padding: 20px;
+}
+
+.movies .movie a {
   display: flex;
   align-items: flex-start;
-  padding: 20px;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
 }
 
 .movie img {
